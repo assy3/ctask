@@ -1,3 +1,5 @@
+//配列
+
 #include <stdio.h>
 #include <math.h>
 
@@ -14,7 +16,7 @@ void select(int number)
         if(number % div_num[i] == 0)
         {
             printf("%dは%dで割り切れます\n", number, div_num[i]);
-        }    
+        }
     }
 
     return;
@@ -28,7 +30,7 @@ int main(void)
 
     printf("整数を入力してください。");
     scanf("%d", &input);
-    
+
     // 関数呼び出し
     select(input);
 
